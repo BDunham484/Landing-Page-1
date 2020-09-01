@@ -121,17 +121,33 @@ input[type="checkbox"]{
 
 #home {
     background-image: url(../Landing-Page-1/images/female-runner-silhouette.webp);
-    min-height: 100vh;
+    height: 100vh;
     width: auto;
     background-size: cover;
     background-position: center;
+    z-index: -100;
+    
+}
+
+#iphone-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
 #iphone-mockup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 240px;
+    padding-top: 40vh;
+    width: 300px;
     height: auto;
+    overflow: hidden;
+    
+}
+
+#blocker {
+    background-color: grey;
+    z-index: 100; 
+    width: 100vw;
+    height: 20vh;
+    
 }
