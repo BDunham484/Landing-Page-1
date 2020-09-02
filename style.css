@@ -125,7 +125,7 @@ input[type="checkbox"]{
     width: auto;
     background-size: cover;
     background-position: center;
-    z-index: -100;
+    
     
 }
 
@@ -140,7 +140,7 @@ input[type="checkbox"]{
     padding-top: 40vh;
     width: 300px;
     height: auto;
-    overflow: hidden;
+    position: relative;
     
 }
 
@@ -148,6 +148,8 @@ input[type="checkbox"]{
     background-color: grey;
     z-index: 100; 
     width: 100vw;
-    height: 20vh;
+    height: 80vh;
+    position: relative;
+    z-index: 100;
     
 }
