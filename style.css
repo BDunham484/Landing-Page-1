@@ -68,8 +68,8 @@ input[type="checkbox"]{
     content: "\f00d";
   }
   nav ul{
-    position: fixed;
-    top: 80px;
+    position: relative;
+    top: 60px;
     left: -100%;
     background: transparent;
     height: 100vh;
@@ -101,21 +101,7 @@ input[type="checkbox"]{
     color: cyan;
   }
 }
-.content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: -1;
-  width: 100%;
-  padding: 0 30px;
-  color: #1b1b1b;
-}
-.content div{
-  font-size: 40px;
-  font-weight: 700;
-}
+
 
 /* **********HEADER********** */
 
@@ -140,9 +126,7 @@ input[type="checkbox"]{
     padding-top: 40vh;
     width: 300px;
     height: auto;
-    position: relative;
-    
-}
+    }
 
 #blocker {
     background-color: grey;
