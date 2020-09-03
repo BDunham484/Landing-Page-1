@@ -108,7 +108,7 @@ input[type="checkbox"]{
     }
 
 #iphone-mockup {
-    padding-top: 38vh;
+    padding-top: 20vh;
     width: 400px;
     height: auto;
     }
@@ -172,9 +172,10 @@ input[type="checkbox"]{
   #click:checked ~ .menu-btn i:before{
     content: "\f00d";
   }
+
   nav ul{
     position: relative;
-    top: 60px;
+    top: 85px;
     left: -100%;
     background: transparent;
     height: 100vh;
@@ -204,6 +205,10 @@ input[type="checkbox"]{
   nav ul li a:hover{
     background: none;
     color: cyan;
+  }
+
+  #iphone-mockup {
+    padding-top: 30vh;
   }
 
   #brands {
