@@ -93,7 +93,13 @@ input[type="checkbox"]{
   font-weight: 500;
 }
 
-#
+#headline-text {
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  width: 550px;
+  letter-spacing: 2px;
+}
 
 #iphone-container {
     display: flex;
