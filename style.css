@@ -179,7 +179,6 @@ input[type="checkbox"]{
 
 .card-text {
   font-size: 12px;
-  text-wrap: wrap;
 }
 
 .feature-list {
@@ -268,11 +267,21 @@ input[type="checkbox"]{
   #brands {
     height: 10vh;
   }
+
+ #center-card {
+   margin-left: 5vw;
+   margin-right: 5vw;
+ }
 }
 
-#center-card {
-  margin-left: 5vw;
-  margin-right: 5vw;
+@media (max-width: 720px) {
+  #feature-cards {
+    flex-direction: column;
+  }
+
+  #features {
+    height: 756px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -307,4 +316,6 @@ input[type="checkbox"]{
   #iphone-mockup {
     padding-top: 45vh;
   }
+
+  
 }
