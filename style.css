@@ -203,7 +203,29 @@ input[type="checkbox"]{
   height: 20vh;
 }
 
+/* **********PRESS********** */
 
+#press {
+  height: 100vh;
+  background-color: #fff;
+}
+
+#press-div {
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+}
+
+#press-list {
+  list-style: none;
+  width: 20vw;
+}
+
+#iphone-mockup-2 {
+  width: 400px;
+  height: auto;
+}
 
 
 
@@ -280,7 +302,7 @@ input[type="checkbox"]{
   }
 
   #features {
-    height: 756px;
+    height: 800px;
   }
 }
 
