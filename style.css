@@ -206,7 +206,7 @@ input[type="checkbox"]{
 /* **********PRESS********** */
 
 #press {
-  height: 50vh;
+  height: 70vh;
   background-color: #fff;
 }
 
@@ -227,25 +227,19 @@ input[type="checkbox"]{
 }
 
 #press-headline {
-  color: cyan;
+  color: #000000;
   font-size: 28px;
   letter-spacing: 3px;
   font-weight: 500;
   text-transform: uppercase;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3333cc+0,cc00cc+100 */
-  background: #3333cc; /* Old browsers */
-  background: -moz-linear-gradient(45deg,  #3333cc 0%, #cc00cc 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg,  #3333cc 0%,#cc00cc 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg,  #3333cc 0%,#cc00cc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3333cc', endColorstr='#cc00cc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background-color: transparent;
 
   text-align: center;
 }
 
 #testimonial {
   letter-spacing: 2px;
-  background-color: #cecccc;
-  color: #fff;
+  color: #000000;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
@@ -265,8 +259,10 @@ input[type="checkbox"]{
   background: -webkit-linear-gradient(45deg,  #3333cc 0%,#cc00cc 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg,  #3333cc 0%,#cc00cc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3333cc', endColorstr='#cc00cc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+  width: 200px;
   text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 #press-button a {
@@ -279,7 +275,12 @@ input[type="checkbox"]{
   height: auto;
 }
 
+/* **********DOWNLOAD********** */
 
+#download {
+  height: 75vh;
+  background-image: url(..//Landing-Page-1/images/runners.jpg);
+}
 
 
 
@@ -354,6 +355,10 @@ input[type="checkbox"]{
  #press-list {
    width: 60vw;
  }
+
+ #press {
+  min-height: 133vh;
+}
 }
 
 @media (max-width: 720px) {
@@ -399,5 +404,7 @@ input[type="checkbox"]{
     padding-top: 45vh;
   }
 
-  
+  #press {
+    min-height: 150vh;
+  }
 }
