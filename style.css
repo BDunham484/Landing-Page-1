@@ -206,7 +206,7 @@ input[type="checkbox"]{
 /* **********PRESS********** */
 
 #press {
-  height: 100vh;
+  height: 50vh;
   background-color: #fff;
 }
 
@@ -216,6 +216,9 @@ input[type="checkbox"]{
   justify-content: center;
   align-items: center;
   margin: auto;
+  position: relative;
+  margin-top: -150px;
+  z-index: 200;
 }
 
 #press-list {
@@ -229,13 +232,25 @@ input[type="checkbox"]{
   letter-spacing: 3px;
   font-weight: 500;
   text-transform: uppercase;
-  background-color: #cecccc;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3333cc+0,cc00cc+100 */
+  background: #3333cc; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #3333cc 0%, #cc00cc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  #3333cc 0%,#cc00cc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  #3333cc 0%,#cc00cc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3333cc', endColorstr='#cc00cc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
   text-align: center;
-  margin-bottom: 20px;
 }
 
 #testimonial {
   letter-spacing: 2px;
+  background-color: #cecccc;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #press-button {
@@ -244,9 +259,19 @@ input[type="checkbox"]{
   letter-spacing: 3px;
   font-weight: 500;
   text-transform: uppercase;
-  background-color: #cecccc;
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3333cc+0,cc00cc+100 */
+  background: #3333cc; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #3333cc 0%, #cc00cc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  #3333cc 0%,#cc00cc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  #3333cc 0%,#cc00cc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3333cc', endColorstr='#cc00cc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
   text-align: center;
-  margin-top: 20px;
+}
+
+#press-button a {
+  text-decoration: none;
+  color: cyan;
 }
 
 #iphone-mockup-2 {
@@ -327,7 +352,7 @@ input[type="checkbox"]{
  }
 
  #press-list {
-   width: 50vw;
+   width: 60vw;
  }
 }
 
