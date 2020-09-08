@@ -280,6 +280,8 @@ input[type="checkbox"]{
 #download {
   height: 75vh;
   background-image: url(..//Landing-Page-1/images/runners.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #download-list {
@@ -387,9 +389,9 @@ input[type="checkbox"]{
     padding-top: 30vh;
   }
 
-  #brands {
+  /* #brands {
     height: 10vh;
-  }
+  } */
 
  #center-card {
    margin-left: 5vw;
