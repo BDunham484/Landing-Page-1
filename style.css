@@ -77,11 +77,12 @@ input[type="checkbox"]{
 /* **********HEADER********** */
 
 #home {
-    background-image: url(../Landing-Page-1/images/female-runner-silhouette.webp);
+    background-image: url(../Landing-Page-1/images/female-runner-silhouette.jpg);
     height: 100vh;
     width: auto;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     }
 
 #main-headline {
@@ -411,7 +412,13 @@ input[type="checkbox"]{
 }
 }
 
+
+
+
 @media (max-width: 720px) {
+  #headline-text {
+    width: 65vw;
+  }
   #feature-cards {
     flex-direction: column;
   }
@@ -439,17 +446,18 @@ input[type="checkbox"]{
     width: 13vw;
     height: auto;
   }
+  
+  
 }
+
+
+
 
 @media (max-width: 500px) {
   nav ul {
     top: 180px;
   }
   
-  #headline-text {
-    width: 400px;
-  }
-
   #iphone-mockup {
     padding-top: 45vh;
   }
@@ -463,5 +471,9 @@ input[type="checkbox"]{
   #download-buttons {
     flex-direction: column;
     align-items: center;
+  }
+
+  #home {
+    background-position: 89%;
   }
 }
